@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0%;
+}
+html, body {
+    height: 100%;
+}
+body {    
+    font-family: 'Raleway', sans-serif;     
+    color: white;
+    background: rgb(54,77,204);
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%)  
+    
+}
+.avatar{
+    width: 80px;
+    border-radius: 50px;   
+    border: 3px solid white; 
+    box-shadow: 0 0 20px white;
+}
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 24px;
+    margin-bottom: 2px;
+}
+h2 {
+    font-size: 16px;  
+}
+.profile {
+    margin-top: 20px;
+    text-align: center;
+}
+.social {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+.social img{
+    width: 33px;
+    margin: 13xp;
+}
+.social-links {
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Raleway', sans-serif;
+    font-size: medium;
+    font-style: normal;
+}
+.links-list li {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 7px 10px;
+    list-style: none;
+}
+.links-list li a {
+    text-decoration: none;  
+    color: rgb(54,77,204); 
+    font-weight: bold;
+    font-size: 18px;
+    padding: 4px;   
+    margin-left: 4px;
+    display: block;
+    box-shadow: 0 0 20px white;
+}
+.links-list li a span {
+    display: block;
+    margin-top: 5px;
+    color: rgb(133, 133, 133);
+    font-size: 15px;
+}
+.links-list-second {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    margin: 7px 10px;
+    list-style: none;
+}
+.links-list-second li a {
+    color: black;
+}
+
